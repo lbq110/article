@@ -4,7 +4,7 @@ from chartstyle import plt, PALETTE, ACCENT, GREY, save, source_note
 
 treaties = ["《外层空间条约》\n(1967)", "《营救协定》\n(1968)", "《责任公约》\n(1972)", "《登记公约》\n(1975)", "《月球协定》\n(1979)"]
 ratified = [118, 100, 100, 78, 17]
-labels = ["118", "约100", "约100", "约78", "17"]
+labels = ["118", "100", "100", "约78", "17"]
 fig, ax = plt.subplots(figsize=(8.6, 4.8))
 cols = [PALETTE[0]] * 4 + [ACCENT]
 bars = ax.bar(treaties, ratified, color=cols, width=0.58)
@@ -17,5 +17,5 @@ ax.annotate("美、俄、中均未加入；\n沙特2024年1月退出", xy=(4, 24
 ax.set_ylim(0, 205)
 ax.set_ylabel("缔约国数量（个）")
 ax.set_title("图12-2　联合国五大外空条约缔约国数量（截至2025年底—2026年初）")
-source_note(fig, "数据来源：UNOOSA《与外空活动有关的国际协定现况》（截至2025年1月1日及2026年1月1日版）、联合国裁军事务厅（马来西亚2025年10月成为OST第118个缔约国）；\n“约”表示不同时点统计略有出入，以UNOOSA最新文件为准")
+source_note(fig, "数据来源：UNOOSA《与外空活动有关的国际协定现况》（截至2025年1月1日及2026年1月1日版）、联合国裁军事务厅（马来西亚2025年10月成为OST第118个缔约国）；\n《登记公约》2025年1月1日为76国，此后厄瓜多尔等加入，2026年初约78国")
 save(fig, __file__)

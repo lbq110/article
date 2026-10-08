@@ -13,10 +13,10 @@ ev = [
     ("美国", 2024.0, "美国：NASA OTPS评估——2050年成本仍远高于地面", True),
     ("欧洲", 2025.9, "欧洲：SOLARIS原定就是否进入全面开发作出决策", True),
     ("日本", 2026.5, "日本：OHISAMA小卫星在轨传能演示（计划FY2026）", False),
-    ("中国", 2028.0, "中国：约400公里轨道无线传能试验星（计划）", False),
-    ("中国", 2030.0, "中国：兆瓦级空间太阳能电站（计划）", False),
+    ("中国", 2028.0, "中国：低轨10千瓦级无线传能试验（2022年规划）", False),
+    ("中国", 2030.0, "中国：兆瓦级在轨试验（2026年报道仍为2030年前后）", False),
     ("英国", 2030.0, "英国：Space Solar在轨演示（公司目标）", False),
-    ("中国", 2049.5, "中国：吉瓦级商业化空间电站（远期目标）", False),
+    ("中国", 2050.0, "中国：2吉瓦级空间电站（远期目标）", False),
 ]
 fig, ax = plt.subplots(figsize=(10, 5.4))
 ax.grid(axis="x"); ax.grid(axis="y", visible=False)
@@ -34,5 +34,5 @@ ax.set_xticks([2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050])
 handles = [Line2D([], [], marker="o", ls="", color=v, ms=8, label=k) for k, v in colors.items()]
 ax.legend(handles=handles, loc="upper right", ncol=1, fontsize=9)
 ax.set_title("图8-1　太空太阳能电站：主要里程碑与计划（实心=已发生，空心=计划）")
-source_note(fig, "数据来源：Caltech（2023）；NASA OTPS《Space-Based Solar Power》（2024）；ESA SOLARIS项目页；南华早报、The Week等对中国计划的报道（2021—2022）；\nJAXA/J-spacesystems（2025）；Space Solar公司公开信息。计划节点均为相关机构公布的目标，可能调整。")
+source_note(fig, "数据来源：Caltech（2023）；NASA OTPS《Space-Based Solar Power》（2024）；ESA SOLARIS项目页；南华早报、Aviation Week等对中国计划的报道（2021—2022）；人民日报、新华社（2026）；\nJAXA/J-spacesystems（2025）；Space Solar公司公开信息。计划节点均为相关机构公布的目标，可能调整。")
 save(fig, __file__)

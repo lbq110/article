@@ -8,8 +8,7 @@
 - SpaceX：Michael Nicolls 2026年1月1日降轨公告；SpaceX向FCC提交的星链半年度报告（经Space.com、Space Intel Report转引）；星舰第14次飞行报道（2026年9月）
 - 中国卫星导航系统管理办公室、UNOOSA/ICG北斗报告（北斗三号星座构成与建成时间）
 - 国际电信联盟资料及Light Reading、Advanced Television对中国CTC-1/CTC-2申报的报道（2026年1月）
-- 范艾伦辐射带：NICT"What is the Radiation Belt?"等科普与研究资料；Kessler & Cour-Palais (1978), Journal of Geophysical Research
-- McDowell (2018), "The Edge of Space: Revisiting the Kármán Line", Acta Astronautica；Britannica
+- NICT辐射带资料；Kessler & Cour-Palais (1978), JGR；McDowell (2018), Acta Astronautica
 - 月球资源：月球资源综述（arXiv:1410.6865）；NASA Mini-SAR与LCROSS结果；新华社关于嫦娥石的报道（2022年）
 - MOXIE：NASA/JPL、MIT 2023年9月任务总结
 - Interlune、Bluefors、美国能源部新闻稿（2025年5月、9月）
@@ -41,6 +40,7 @@
 
 - ESA SOLARIS是否已于2025年底作出全面开发决策；日本OHISAMA是否已在2026年发射；中国空间太阳能电站2028/2030年节点的最新进展。
 - 星链2023年6—11月、2024年12月—2025年5月两期避碰机动次数（图7-5略去）；2023年12月—2024年5月一期仅核实到"约5万次"。
+- 2018年批准的7518颗V频段甚低轨授权与第二代授权的关系（是否已被替代或仍有效），正文"约1.9万颗"未计入该部分。
 - 各国政府航天预算的完整国别数据（仅核实美国约797亿美元、中国190亿美元以上，均为Novaspace口径），故未绘制多国对比和占GDP比重全图；GDP占比为作者粗算。
 - 印度"沙克提任务"碎片约400块、LCROSS含水约5.6%、西电"逐日工程"、"拉希德2号"搭乘嫦娥七号、中阿北斗/GNSS中心（突尼斯，2018年）、韩国2032年登月目标等，系依据二手报道或通行说法写入，未能回到一手文件核对，建议出版前复核。
 - 本部分检索后期受检索次数上限和部分网站访问限制，部分数据未能逐一回到原始文件核对。

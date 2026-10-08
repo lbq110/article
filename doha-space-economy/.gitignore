@@ -1,0 +1,4 @@
+dist/t.*
+dist/_*
+__pycache__/
+*.pdf

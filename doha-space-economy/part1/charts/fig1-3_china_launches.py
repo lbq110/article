@@ -11,7 +11,7 @@ for b, v in zip(bars, vals):
     ax.text(b.get_x() + b.get_width() / 2, v + 1.5, str(v), ha="center", fontsize=9.5)
 ax.annotate("商业发射50次\n占54%", (10, 92), xytext=(7.3, 88), fontsize=9.5, color=ACCENT,
             arrowprops=dict(arrowstyle="-", color=GREY, lw=0.8))
-ax.annotate("商业发射30次\n占68.2%", (11, 44), xytext=(10.4, 62), fontsize=9.5, color=ACCENT, ha="center",
+ax.annotate("商业发射30次\n占68.2%", (11, 44), xytext=(11, 66), fontsize=9.5, color=ACCENT, ha="center",
             arrowprops=dict(arrowstyle="-", color=GREY, lw=0.8))
 ax.set_ylabel("次")
 ax.set_ylim(0, 105)

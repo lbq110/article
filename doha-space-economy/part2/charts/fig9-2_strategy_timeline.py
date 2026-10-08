@@ -43,7 +43,7 @@ ax.set_yticks([]); ax.spines["left"].set_visible(False)
 ax.set_xlim(2014.5, 2036.5); ax.set_ylim(-0.8, n)
 ax.set_xticks(range(2015, 2037, 3))
 handles = [Line2D([], [], marker="o", ls="", color=v, ms=8, label=k) for k, v in colors.items()]
-ax.legend(handles=handles, loc="lower left", ncol=4, fontsize=9)
+ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.08), ncol=8, fontsize=9)
 ax.set_title("图9-2　主要国家和地区太空战略关键节点（实心=已发生，空心=目标）")
 source_note(fig, "数据来源：国家航天局、新华社、NASA、FCC、欧盟委员会、ESA、ISRO/IN-SPACe、日本内阁府、韩国KASA、阿联酋航天局、沙特航天局、卢森堡政府等公开信息。作者整理。")
 save(fig, __file__)

@@ -13,7 +13,7 @@ ax2 = ax.twinx()
 arpu_x = [1, 5]
 ax2.plot(arpu_x, [99, 66], color=PALETTE[3], marker="o", lw=2, ls="--")
 ax2.annotate("月均ARPU约99美元", (1, 99), textcoords="offset points", xytext=(8, 6), fontsize=9, color=PALETTE[3])
-ax2.annotate("约66美元", (5, 66), textcoords="offset points", xytext=(-20, 10), fontsize=9, color=PALETTE[3])
+ax2.annotate("约66美元", (5, 66), textcoords="offset points", xytext=(-48, -4), ha="right", fontsize=9, color=PALETTE[3], bbox=dict(boxstyle="round,pad=0.25", fc="#0B1220", ec="none", alpha=0.85))
 ax2.set_ylim(0, 140)
 ax2.set_ylabel("每用户月均收入（美元）", color=PALETTE[3])
 ax2.spines["right"].set_visible(True)

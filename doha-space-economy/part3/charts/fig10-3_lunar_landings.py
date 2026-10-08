@@ -29,7 +29,7 @@ n = len(missions)
 for i, (d, name, who, kind, r) in enumerate(missions):
     y = n - 1 - i
     marker = "o" if kind == "国家" else "s"
-    ax.axhline(y, xmin=0.02, xmax=0.98, color="#EEEEEE", lw=0.8, zorder=0)
+    ax.axhline(y - 0.5, xmin=0.02, xmax=0.98, color="#EEEEEE", lw=0.8, zorder=0)
     ax.text(0.0, y, d, ha="left", va="center", fontsize=9.5, color="#555555")
     ax.text(0.55, y, name, ha="left", va="center", fontsize=10)
     ax.text(1.75, y, who, ha="left", va="center", fontsize=9.5, color="#444444")

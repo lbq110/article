@@ -32,7 +32,7 @@ for i, (yr, lab, lane) in enumerate(events):
     ax.scatter(yr, y, s=60, color=colors[lane], zorder=3)
     ax.text(yr + 0.8, y, f"{yr}  {lab}", va="center", fontsize=9.2, color="#222222")
 ax.axvspan(1980, 2001, color="#F4F4F4", zorder=0)
-ax.text(1990.5, 2.3, "1980—2001：\n联合国层面\n“立法空窗期”", ha="center", fontsize=9, color="#777777")
+ax.text(1990.5, 2.3, "1980—2001：\n联合国层面\n“立法空窗期”", ha="center", fontsize=9, color="#C9D3E3")
 ax.set_xlim(1960, 2065)
 ax.set_ylim(0.3, n + 0.8)
 ax.set_yticks([])
